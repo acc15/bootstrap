@@ -403,6 +403,7 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.debounce', 'ui.bootstrap
         modelCtrl.$viewValue = '';
         element.val('');
       }
+      resetMatches();
       hasFocus = false;
       selected = false;
     });
